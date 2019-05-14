@@ -1,0 +1,30 @@
+{
+  "name": "socket.io-client-weex",
+  "version": "1.0.1",
+  "description": "socket.io-client for weex",
+  "keywords": ["weex", "websocket", "socket.io-client", "engine.io-client", "socket.io"],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "yarn webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LincWong/socket.io-client-weex.git"
+  },
+  "author": "LincWong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LincWong/socket.io-client-weex/issues"
+  },
+  "homepage": "https://github.com/LincWong/socket.io-client-weex#readme",
+  "dependencies": {
+    "engine.io-client-weex": "^1.0.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "clean-webpack-plugin": "^2.0.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
