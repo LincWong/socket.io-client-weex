@@ -22,9 +22,9 @@
   integrity sha1-PcoOPzOyAPx9ETnAzZbBJoyt/Z0=
 
 "@types/node@*":
-  version "12.0.0"
-  resolved "http://r.tnpm.oa.com/@types/node/download/@types/node-12.0.0.tgz#d11813b9c0ff8aaca29f04cbc12817f4c7d656e5"
-  integrity sha1-0RgTucD/iqyinwTLwSgX9MfWVuU=
+  version "12.0.1"
+  resolved "http://r.tnpm.oa.com/@types/node/download/@types/node-12.0.1.tgz#3dde31f8da274dfeb90e96abf55038fef46285f0"
+  integrity sha1-Pd4x+NonTf65Dpar9VA4/vRihfA=
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -333,6 +333,16 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "http://r.tnpm.oa.com/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
+
+babel-loader@^8.0.6:
+  version "8.0.6"
+  resolved "http://r.tnpm.oa.com/babel-loader/download/babel-loader-8.0.6.tgz#e33bdb6f362b03f4bb141a0c21ab87c501b70dfb"
+  integrity sha1-4zvbbzYrA/S7FBoMIauHxQG3Dfs=
+  dependencies:
+    find-cache-dir "^2.0.0"
+    loader-utils "^1.0.2"
+    mkdirp "^0.5.1"
+    pify "^4.0.1"
 
 backo2@1.0.2:
   version "1.0.2"
@@ -952,9 +962,9 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
     once "^1.4.0"
 
 engine.io-client-weex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/engine.io-client-weex/-/engine.io-client-weex-1.0.0.tgz#0f25f7b514b872a656afaf22c04a16228733dc5b"
-  integrity sha512-kYA8tHSZMVLrLLcPwJMnwSh8ztlVV4vO8eYwoDNpv/vp+S8b/cKfB6VKGsnxubbv8KTeQ+ayQgj8IMUl6THzug==
+  version "1.0.1"
+  resolved "http://r.tnpm.oa.com/engine.io-client-weex/download/engine.io-client-weex-1.0.1.tgz#a9eaa4daea231c48c0625962887fa1b7257943ee"
+  integrity sha1-qeqk2uojHEjAYlliiH+htyV5Q+4=
   dependencies:
     component-emitter "1.2.1"
     component-inherit "0.0.3"
@@ -1703,7 +1713,7 @@ loader-runner@^2.3.0:
   resolved "http://r.tnpm.oa.com/loader-runner/download/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
   integrity sha1-7UcGa/5TTX6ExMe5mYwqdWB9k1c=
 
-loader-utils@^1.1.0:
+loader-utils@^1.0.2, loader-utils@^1.1.0:
   version "1.2.3"
   resolved "http://r.tnpm.oa.com/loader-utils/download/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
   integrity sha1-H/XcaRHJ8KBiUxpMBLYJQGEIwsc=
